@@ -1,7 +1,7 @@
-import { join, extname } from "@std/path";
-import { ByteSliceStream } from "@std/streams";
-import { normalize } from "@std/path/posix/normalize";
-import { contentType } from "@std/media-types";
+import { join, extname } from "@std/path@1.0.8";
+import { ByteSliceStream } from "@std/streams@1.0.8";
+import { normalize } from "@std/path@1.0.8/posix/normalize";
+import { contentType } from "@std/media-types@1.0.3";
 
 const target = ".";
 
