@@ -1,8 +1,7 @@
-import { join } from "https://deno.land/std@0.224.0/path/join.ts";
-import { extname } from "https://deno.land/std@0.224.0/path/extname.ts";
-import { ByteSliceStream } from "https://deno.land/std@0.224.0/streams/byte_slice_stream.ts";
-import { normalize } from "https://deno.land/std@0.224.0/path/posix/normalize.ts";
-import { contentType } from "https://deno.land/std@0.224.0/media_types/mod.ts";
+import { join, extname } from "@std/path";
+import { ByteSliceStream } from "@std/streams";
+import { normalize } from "@std/path/posix/normalize";
+import { contentType } from "@std/media-types";
 
 const target = ".";
 

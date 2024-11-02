@@ -1,5 +1,6 @@
 {
   "name": "@pikanezi/serve-react-files",
   "version": "0.1.0",
-  "exports": "./mod.ts"
+  "exports": "./server.ts",
+  "imports": { "@std": "jsr:@std" }
 }
